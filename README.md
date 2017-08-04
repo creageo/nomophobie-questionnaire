@@ -14,6 +14,6 @@ sanitizé et validé : /
 
 responsive : non
 
-exercice : https://github.com/becodeorg/BXLCentral/tree/master/Projects/3-progressive-enhancement
+exercice : https://github.com/becodeorg/BXLCentral/tree/master/Projects/8-nomophobie-questionnaire
 
 mon évaluation sur 10 : 6/10
