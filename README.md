@@ -1,16 +1,16 @@
 # nomophobie-questionnaire
 
-code utilisé : hmtl css
+code utilisé : hmtl css php
 
-outil utilisé : sublimetext 000webhost
+outil utilisé : sublimetext
 
-complément : https://creageo.github.io/3-progressive-enhancement/ https://ex2bege.000webhostapp.com/
+complément : /
 
-code valide : oui
+code valide : non
 
-non-voyants : oui
+non-voyants : non
 
-sanitizé et validé : /
+sanitizé et validé : non
 
 responsive : non
 
