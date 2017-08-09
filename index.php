@@ -156,18 +156,51 @@
 <p>Votre score est de :
 <?php
 
-	$score = $_POST["r1"] + $_POST["r2"] + $_POST["r3"] + $_POST["r4"] + $_POST["r5"] + $_POST["r6"] + $_POST["r7"] + $_POST["r8"] + $_POST["r9"] + $_POST["r10"] + $_POST["r11"] + $_POST["r12"] + $_POST["r13"] + $_POST["r14"] + $_POST["r15"] + $_POST["r16"] + $_POST["r17"] + $_POST["r18"] + $_POST["r19"] + $_POST["r20"];
+if (isset($_POST["submit"])) {
+	
+	$r1 = $_POST["r1"];
+	$r2 = $_POST["r2"];
+	$r3 = $_POST["r3"];
+	$r4 = $_POST["r4"];
+	$r5 = $_POST["r5"];
+	$r6 = $_POST["r6"];
+	$r7 = $_POST["r7"];
+	$r8 = $_POST["r8"];
+	$r9 = $_POST["r9"];
+	$r10 = $_POST["r10"];
+	$r11 = $_POST["r11"];
+	$r12 = $_POST["r12"];
+	$r13 = $_POST["r13"];
+	$r14 = $_POST["r14"];
+	$r15 = $_POST["r15"];
+	$r16 = $_POST["r16"];
+	$r17 = $_POST["r17"];
+	$r18 = $_POST["r18"];
+	$r19 = $_POST["r19"];
+	$r20 = $_POST["r20"];
+
+	$score = $r1 + $r2 + $r3 + $r4 + $r5 + $r6 + $r7 + $r8 + $r9 + $r10 + $r11 + $r12 + $r13 + $r14 + $r15 + $r16 + $r17 + $r18 + $r19 + $r20;
 	echo $score;
+
+}else{
+	echo "";
+}
 
 ?>
 , vous êtes
 <?php
+
+if (isset($_POST["submit"])) {
 
 	if ($score >= 80) {
 		echo "nomophobe";
 	}else{
 		echo "pas nomophobe";
 	}
+
+}else{
+	echo "";
+}
 
 ?>
 .</p>
